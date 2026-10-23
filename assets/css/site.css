@@ -717,6 +717,27 @@ h3 {
   line-height: 1.5;
 }
 
+/* Listing: the store badge, the owner's artwork unaltered; only its size is set, and it keeps its proportions. */
+.listing {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+  margin: 0 0 var(--space-5);
+}
+
+.listing a {
+  display: inline-flex;
+  border-radius: 6px;
+}
+
+.listing img {
+  display: block;
+  height: 54px;
+  width: auto;
+  max-width: 100%;
+}
+
 .lost {
   padding-block: var(--space-9);
 }
